@@ -1,3 +1,4 @@
+package entidades;
 public interface iConta {
     
    void sacar(double valor);

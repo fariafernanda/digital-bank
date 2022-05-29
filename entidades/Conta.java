@@ -1,3 +1,4 @@
+package entidades;
 public abstract class Conta implements iConta {
 
     private static final String AG_PADRAO = "0001";
@@ -6,9 +7,11 @@ public abstract class Conta implements iConta {
     protected String agencia;
     protected String numeroConta;
     protected Double saldo;
+    protected Cliente cliente;
 
-    public Conta(){
+    public Conta(Cliente cliente){
         this.agencia = Conta.AG_PADRAO;
+        this.cliente = cliente;
     }
     
   

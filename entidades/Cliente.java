@@ -1,11 +1,13 @@
+package entidades;
+
 public class Cliente {
     
-    public String nomeCompleto;
-    public String cpf;
-    public String endereço;
-    public Double rendaMensalAprox;
-    public String telefone;
-    public String dataNascimento;
+    protected String nomeCompleto;
+    protected String cpf;
+    protected String endereço;
+    protected Double rendaMensalAprox;
+    protected String telefone;
+    protected String dataNascimento;
 
 
     public Cliente (String nomeCompleto, String cpf, String endereço, Double rendaMensalAprox, String telefone,
